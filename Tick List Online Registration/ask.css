@@ -1,0 +1,49 @@
+/* Add a fancy background */
+body {
+  background: linear-gradient(to right, #729de6, #0400ff);
+}
+
+/* Style form container */
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #eee8e8;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Style form headings */
+.form-container h2 {
+  font-family: 'Pacifico', cursive;
+  color: #ff00cc;
+}
+
+/* Style form inputs */
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Style form submit button */
+.form-container button[type="submit"] {
+  background: linear-gradient(to right, #00ccff, #ff00cc);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s ease;
+}
+
+.form-container button[type="submit"]:hover {
+  background-color: #ffcc00;
+}
+
+
+}

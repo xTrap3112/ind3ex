@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Registration </title>
+
+    <link rel="stylesheet" href="uo.css">
+
+</head>
+
+<body>
+    <div class="form-container input">
+<h2>Registration</h2>
+<br><div style="width: 600px;  padding-top:10px; padding-bottom:10px;border: 3px solid #A0A0A0; text-align: center;background: #C0C0C0;">
+<font color="red"><b>No need to register if you have already an account on <a href="http://anygif23titsbw6xzloyjbwkjehfvnuejfkwl2ctbkjb2hqkudzplqid.onion" target="_blank">anyGIF</a>. <br>Same credentials can be used <a href="?login">there</a>.</font></b>
+</div>
+<br>
+<br>
+<form action="?action=register" method="post" enctype="multipart/form-data">
+
+<label> Username <a href="#" title="Letters and Numbers only. 5 to 20 characters">[?]</a></label>       
+<input type="text" name="username1" maxlength="20" pattern="[a-zA-Z0-9_-]{5,20}" size="15"/> <br> <br>
+<label> Password <a href="#" title="Letters and Numbers only. 5 to 20 characters">[?]</a></label>
+<input type="password" name="password1" maxlength="20" pattern="[a-zA-Z0-9_-]{5,20}" size="15"/> <br> <br>
+<label> Repeat Password: </label>       
+<input type="password" name="password2" maxlength="20" pattern="[a-zA-Z0-9_-]{5,20}" size="15"/> <br> <br>
+<label> <i><font color="grey">Referrer code (optional):</font></i> </label>       
+<input type="text" name="referrer" size="10" value=""/> <br> <br>
+<label> Verification Code: </label> <br>
+<img src="captcha.php?rand=1303353768" id="captchaimg"><br>
+<input type="text" name="captcha_code" size="6" maxlength="6" /><br><br>
+<button>Submit</button>
+</form><br>
+    </div>
+
+</body>
